@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Wedding</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 58px; 
+        }
+
+      
+        .jumbotron{
+            background-image: url(images/background/photo-1549578117-eee85f4c009b.avif);
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px;
+            margin-bottom: 0;
+        }
+        .section {
+            padding: 60px 0;
+        }
+
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+       
+        .image-container {
+            text-align: center;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Our Wedding</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#story">Our Story</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#details">Details</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#rsvp">RSVP</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <div id="home" class="jumbotron">
+        
+        <h1 class="display-4">John & Jane</h1>
+        <p class="lead">Save the Date: October 20, 2023</p>
+    </div>
+
+    <!-- Our Story Section -->
+    <div id="story" class="section">
+        <img src="images/illustration/photo-1578013161233-99253c8e4caa.avif" class="img-fluid">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Story</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae varius odio. Donec venenatis velit id ex posuere, ac venenatis ex bibendum. Duis aliquam commodo justo, nec feugiat orci vulputate vel.</p>
+        </div>
+    </div>
+
+    <!-- Details Section -->
+    <div id="details" class="section">
+        <div class="container">
+            <h2 class="text-center mb-4">Wedding Details</h2>
+            <p>Date: October 20, 2023<br> Time: 5:00 PM<br> Venue: Elegant Garden Venue, Cityville</p>
+        </div>
+    </div>
+
+    <!-- RSVP Section -->
+    <div id="rsvp" class="section">
+        <div class="container">
+            <h2 class="text-center mb-4">RSVP</h2>
+            <p>Please RSVP by October 1, 2023</p>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="John Doe">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="guests">Number of Guests</label>
+                        <input type="number" class="form-control" id="guests" placeholder="2">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit RSVP</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Gallery Section -->
+    <div id="gallery" class="section">
+        <div class="container">
+            <h2 class="text-center mb-4">Photo Gallery</h2>
+            <div class="image-container">
+                <img src="images/illustration/wed1.avif" alt="Image 1" class="img-fluid">
+                <img src="images/illustration/wed2.avif" alt="Image 2">
+                <img src="images/illustration/wed3.avif" alt="Image 3">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="section">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <p>For inquiries or assistance, please contact us:</p>
+            <address>
+                <strong>John & Jane's Wedding</strong><br>
+                Email: info@johnandjane.com<br>
+                Phone: (555) 123-4567
+            </address>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 John & Jane's Wedding</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript libraries -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

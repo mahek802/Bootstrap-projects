@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Dealership</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 58px; 
+        }
+
+        .jumbotron {
+            background-image: url("images/background/home1.avif"); 
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px;
+            margin-bottom: 0;
+        }
+
+        .section {
+            padding: 60px 0;
+        }
+
+        .car-card {
+            margin-bottom: 30px;
+        }
+
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Car Dealership</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#inventory">Inventory</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <div id="home" class="jumbotron">
+        <h1 class="display-4">Welcome to Our Car Dealership</h1>
+        <p class="lead">Find the perfect car for you</p>
+    </div>
+
+    <!-- Inventory Section -->
+    <div id="inventory" class="section">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Inventory</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card car-card">
+                        <img src="images/illustration/car1.avif" class="card-img-top" alt="Car 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Car Model 1</h5>
+                            <p class="card-text">Description of the car model. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card car-card">
+                        <img src="images/illustration/car2.avif" class="card-img-top" alt="Car 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Car Model 2</h5>
+                            <p class="card-text">Description of the car model. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card car-card">
+                        <img src="images/illustration/carr3.avif" class="card-img-top" alt="Car 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Car Model 3</h5>
+                            <p class="card-text">Description of the car model. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card car-card">
+                        <img src="images/illustration/car4.avif" class="card-img-top" alt="Car 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Car Model 3</h5>
+                            <p class="card-text">Description of the car model. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card car-card">
+                        <img src="images/illustration/carrr4.avif" class="card-img-top" alt="Car 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Car Model 3</h5>
+                            <p class="card-text">Description of the car model. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card car-card">
+                        <img src="images/illustration/carrr5.avif" class="card-img-top" alt="Car 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Car Model 3</h5>
+                            <p class="card-text">Description of the car model. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+
+    <!-- About Us Section -->
+    <div id="about" class="section">
+        <div class="container">
+            <h2 class="text-center mb-4">About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae varius odio. Donec venenatis velit id ex posuere, ac venenatis ex bibendum. Duis aliquam commodo justo, nec feugiat orci vulputate vel.</p>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="section">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <p>For inquiries or to schedule a test drive, please contact us:</p>
+            <address>
+                <strong>Car Dealership</strong><br>
+                Email: info@cardealership.com<br>
+                Phone: (555) 123-4567
+            </address>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Car Dealership</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript libraries -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

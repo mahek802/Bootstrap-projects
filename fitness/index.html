@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Hub</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 56px; 
+        }
+
+        .jumbotron {
+            background-image: url("images/background/photo-1541534741688-6078c6bfb5c5.avif"); 
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px;
+            margin-bottom: 0;
+        }
+
+        .section {
+            padding: 60px 0;
+        }
+
+        .trainer-card {
+            margin-bottom: 30px;
+        }
+
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Fitness Hub</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#trainers">Trainers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <div id="home" class="jumbotron">
+        <h1 class="display-4">Fitness Hub</h1>
+        <p class="lead">Achieve your fitness goals with us</p>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services" class="section">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/illustration/fit1.avif" class="card-img-top" alt="Service 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Personal Training</h5>
+                            <p class="card-text">Get personalized workout plans from our certified trainers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/illustration/fit3.avif" class="card-img-top" alt="Service 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Group Classes</h5>
+                            <p class="card-text">Join our group classes for a fun and motivating fitness experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/illustration/fit5.avif" class="card-img-top" alt="Service 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Nutrition Counseling</h5>
+                            <p class="card-text">Receive expert advice on nutrition to complement your fitness routine.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Trainers Section -->
+    <div id="trainers" class="section">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Trainers</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card trainer-card">
+                        <img src="images/illustration/trainer1.avif" class="card-img-top" alt="Trainer 1">
+                        <div class="card-body">
+                            <h5 class="card-title">John Doe</h5>
+                            <p class="card-text">Certified Personal Trainer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card trainer-card">
+                        <img src="images/illustration/trainer3.avif" class="card-img-top" alt="Trainer 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Jane Smith</h5>
+                            <p class="card-text">Group Fitness Instructor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card trainer-card">
+                        <img src="images/illustration/trainer4.avif" class="card-img-top" alt="Trainer 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Alex Johnson</h5>
+                            <p class="card-text">Nutrition Specialist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="section">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <p>Have questions or want to get started? Reach out to us:</p>
+            <address>
+                <strong>Fitness Hub</strong><br>
+                Email: info@fitnesshub.com<br>
+                Phone: (555) 123-4567
+            </address>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Fitness Hub</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript libraries -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

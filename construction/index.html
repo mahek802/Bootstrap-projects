@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Hub</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 56px; 
+        }
+
+        .jumbotron {
+            background-image: url("images/background/home.avif"); 
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px;
+            margin-bottom: 0;
+        }
+
+        .section {
+            padding: 60px 0;
+        }
+
+        .project-card {
+            margin-bottom: 30px;
+        }
+
+        .testimonial {
+            background-color: #f8f9fa;
+            padding: 60px 0;
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+       
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Construction Hub</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <div id="home" class="jumbotron">
+        <h1 class="display-4">Building Dreams, Constructing Realities</h1>
+        <p class="lead">Your trusted partner in construction projects</p>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="section">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <img src="images/illustration/con1.avif" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Commercial Building</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae varius odio.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <img src="images/illustration/con2.avif" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Residential Complex</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae varius odio.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <img src="images/illustration/con3.avif" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Infrastructure Development</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae varius odio.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services" class="section">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/illustration/project management.avif" class="card-img-top" alt="Project 2">
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Management</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae varius odio.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/illustration/project planning.avif" class="card-img-top" alt="Project 2">
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Construction Planning</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae varius odio.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/illustration/quatity.avif" class="card-img-top" alt="Project 2">
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Quality Assurance</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae varius odio.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <div id="testimonials" class="testimonial">
+        <div class="container">
+            <h2 class="text-center mb-4">What Our Clients Say</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"Construction Hub delivered our project on time and with exceptional quality. Highly recommended."</p>
+                            <p class="text-right">- John D.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"Their attention to detail and commitment to excellence make them a standout construction company."</p>
+                            <p class="text-right">- Emily S.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"The team at Construction Hub is professional, reliable, and easy to work with. We are satisfied with the results."</p>
+                            <p class="text-right">- Michael W.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="section">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <p>For inquiries or to discuss your project, please contact us:</p>
+            <address>
+                <strong>Construction Hub</strong><br>
+                Email: info@constructionhub.com<br>
+                Phone: (555) 123-4567
+            </address>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Construction Hub</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript libraries -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
